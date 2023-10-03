@@ -10,7 +10,7 @@ app.use(cors());
 
 //Connection Start
 mongoose
-  .connect("mongodb://localhost:27017/inShortDB")
+  .connect("mongodb://0.0.0.0:27017/inShortDB")
   .then((result) => {
     //true
     console.log("Database Connected");
